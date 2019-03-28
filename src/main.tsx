@@ -1,6 +1,9 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { SubComponent } from "./sub-component";
+import { Clock } from "./clock";
+import { Toggle } from "./toggle";
+import { NumberList } from "./number-list";
 import styled, { css } from "styled-components";
 
 interface InterfaceMyProps {
@@ -24,6 +27,12 @@ class App extends React.Component {
         <h1>Hello React</h1>
         <SubComponent name="My Counter for TypeScript" />
         <StyledButton>aaa</StyledButton>
+        <Clock />
+        <Clock />
+        <Toggle />
+        aa
+        <NumberList numbers={[1, 2, 3]} />
+        nn
       </div>
     );
   }

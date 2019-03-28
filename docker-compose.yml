@@ -1,7 +1,7 @@
 version: '3'
 services:
-  type-react:
-    container_name: type-react
+  react-practice:
+    container_name: react-practice
     build: .
     ports:
       - 8080:8080
